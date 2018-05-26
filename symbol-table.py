@@ -4,9 +4,11 @@ def f():
     l_b = '마이콜'
     print(locals())
 
+
 class MyClass:
     x = 10
     y = 20
+
 
 g_a = 1
 g_b = '둘리'
@@ -31,3 +33,4 @@ print(o.__dict__)
 # 즉, 심볼 테이블이 없으므로 확장이 불가능하다.
 # print(print.__dict__)
 # print(g_a.__dict__)
+
